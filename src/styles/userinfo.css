@@ -1,0 +1,147 @@
+*{
+    margin: 0px;
+    padding: 0px;
+   
+}
+.headerwarper{
+background-color: rgb(2, 43, 2);
+color: white;
+height: 400px;
+padding-top: 100px;
+
+
+
+
+}
+.title{
+    font-size: 45px;
+    font-family: serif;
+    display: flex;
+align-items: center;
+justify-content: center;
+
+}
+.searchuser{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+ 
+}
+.selectuser{
+
+    height: 30px;
+    border-radius: 10px ;
+    height: 40px;
+    width: 20%;
+   
+    
+   
+
+}
+.inputsearch{
+   
+    width: 30%;
+    height: 40px;
+    border-radius: 10px ;
+    padding: 10px;
+    margin-left: 26px;
+
+}
+.seachicon{
+    color: black;
+    font-size: 20px;
+    /* margin-right: 24px; */
+    position: relative;
+    left: -36px;
+}
+.quickserch-title{
+    margin-top: 30px;
+    color: lightseagreen;
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+    
+
+
+    
+}
+.userdetail{
+    display: flex;
+    justify-content: center;
+    
+}
+.userdetailcard{
+width: 25%;
+
+border: 1px solid red;
+margin: 20px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+background-color: wheat;
+height: 300px;
+
+
+
+}
+
+.oneuserpic{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-top: 10px;
+ 
+
+}
+.button{
+    width: 116px;
+    padding: 7px;
+    background: green;
+    color: white;
+    border-radius: 10px;
+}
+.foooter{
+    background-color: rgb(2, 43, 2);
+    color: white;
+display: flex;
+justify-content: center;
+font-size: 18px;
+}
+
+
+@media only screen and (max-width :600px){
+    .selectuser{
+        height: 30px;
+        width: 90%;
+    }
+    .inputsearch{
+   
+        height: 30px;
+        width: 90%;
+    
+    }.userdetail{
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+     
+    
+        
+    }.userdetailcard{
+        width: 50%;
+        
+        border: 1px solid red;
+        margin: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: wheat;
+        height: 300px;
+        margin-left:25%;
+        
+        
+        
+        }
+}

@@ -1,0 +1,38 @@
+.wrapper{
+    height: 600px;
+    background-color: darkgreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.formcontainer{
+    background-color: white;
+    width: 40%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 3px
+}
+.success-message{
+    background-color: deepskyblue;
+    height: 40px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+span{
+    color:red;
+    margin-bottom: 2px;
+    
+}
+
+
+@media only screen and (max-width:600px){
+    .formcontainer{
+      
+        width: 70%;
+        height: 500px;
+        
+    }
+}
